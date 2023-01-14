@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sheraton - Hotel Website</title>
+</head>
+<body>
+    <section class="facility_section">
+        <div class="container_facility">
+            <div class="navbar">
+                <h3 class="logo"><a href="#" class="current">SHERATON</a>
+                    <span class="text">HOTELS</span>
+                </h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facility.html">Facilities</a></li>
+                    <li><a href="room.html">Rooms</a></li>
+                    <li><a href="contact.html">Contact-us</a></li>
+                </ul>
+            </div>
+            <h2 class="text1">WELCOME TO</h2>
+            <h1 class="text2">SHERATON</h1>
+            <h3 class="text3">HOTELS</h3>
+            <span class="text4">Book your stay and enjoy Luxury 
+                redefined at the most affordable rates.
+            </span>
+            <button class="btn">
+                <img src="./image/booking.svg" alt="">
+                <p>BOOK NOW</p>
+            </button>
+            <div class="upward" onclick="scrollTopTop()"></div>
+        </div>
+        <div class="text_facility">
+            <h2>FACILITIES</h2>
+            <p>We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so 
+                that we can ensure an experience quite uniquw. Luxury hotels offers the perfect setting with stunning views for leisure
+                and our modern luxury resort facilities will help you enjoy the best of all. 
+            </p>
+            <img src="./image/gym.png" alt="">
+            <img src="./image/bar.png" alt="">
+            <img src="./image/spa.png" alt="">
+            <img src="./image/swimming-pool.png" alt="">
+            <img src="./image/restourant.png" alt="">
+            <img src="./image/laundary.png" alt="">
+        </div>
+        <footer class="footer">
+            <div class="text_footer">
+                <h4 class="text_footer1">SHERATON</h4>
+                <p class="use">HOTELS</p>
+                <div class="personality">abcd road,abcd city, abcd</div>
+                <div class="phone-number">+91 1234567890</div> 
+                <div class="email">sheraton@gmail.com</div>
+            </div>
+            <div class="text_footer2">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="browse">
+                <ul>
+                    <li>
+                        <img src="./image/facebook.svg" alt="">
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <img src="./image/twitter.svg" alt="">
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <img src="./image/instagram.svg" alt="">
+                        <a href="#">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text_email">
+                <h4 class="text_email_1">Subscribe to our newsletter</h4>
+                <input type="text" placeholder="Email Address">
+                <button class="btn_footer">OK</button>
+            </div>
+        </footer>
+    </section>
+    <script>
+        window.addEventListener('scroll',function(){
+            let scroll = document.querySelector('.upward');
+            scroll.classList.toggle("active", window.scrollY>500)
+        })
+        function scrollTopTop(){
+            window.scrollTo({
+                top:0,
+                behavior:"smooth"
+            })
+        }
+    </script>
+</body>
+</html>

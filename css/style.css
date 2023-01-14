@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 1300px;
+    margin: auto;
+    background-image: url("../image/sheraton-hotel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    background: #14274A;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-right: 90px;
+}
+
+.logo .current {
+    margin-left: 50px;
+    color: #E0B973;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+ul li a:hover {
+    color: #E0B973;
+}
+
+.text {
+    margin-left: 90px;
+    font-size: 10px;
+    color: #E0B973;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.text1 {
+    color: #fff;
+    margin-left: 75px;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.text2,.text3 {
+    color: #E0B973;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.text4 {
+    color: #fff;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #14274A;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 150px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn p {
+    color: #E0B973;
+    margin-right: 15px;
+}
+
+.btn img {
+    margin-left: 15px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.text_section {
+    padding-top: 45px;
+    text-align: center;
+    color: #14274A;
+}
+
+.part_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part_2 .text_part2 {
+    color: #14274A;
+    margin-top: 150px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.part_2 .text_part2 .text_part_2 {
+    color: #14274A;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.part_2 img {
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.part_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part_3 .text_part3 {
+    color: #14274A;
+    margin-top: 150px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.part_3 .text_part3 .text_part_3 {
+    color: #14274A;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.part_3 img {
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn_1 {
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14274A;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.btn_1:hover {
+    background-color: #E0B973;
+}
+
+footer {
+    background: #14274A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.text_footer {
+    margin-left: 30px;
+}
+
+.text_footer p {
+    margin-bottom: 15px;
+}
+
+.text_footer1,.use {
+    color: #E0B973;
+}
+
+.personality,.phone-number,.email {
+    color: #fff;
+}
+
+.text_footer2 ul li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.browse ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.browse ul li:nth-child(3) img {
+    margin-right: 5px;
+}
+
+.text_email {
+    margin-right: 30px;
+}
+
+.text_email input {
+    height: 20px;
+}
+
+.text_email_1 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.btn_footer {
+    cursor: pointer;
+    border: none;
+    background: #E0B973;
+    width: 20px;
+    height: 20px;
+}
+
+.container_facility {
+    position: relative;
+}
+
+.facility_section {
+    width: 1300px;
+    margin: auto;
+    background-image: url("../image/palm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.upward {
+    position: fixed;
+    bottom: 5px;
+    right: 620px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    background: url("../image/scroll-down.svg");
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.text_facility h2 {
+    margin-top: 75px;
+    text-align: center;
+    color: #14274A;
+    margin-bottom: 30px;
+}
+
+.text_facility p {
+    color: #14274A;
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.text_facility img {
+    width: 1000px;
+    margin-left: 150px;
+}
+
+.contact_section {
+    background-color: #E0B973;
+    width: 1300px;
+    margin: auto;
+}
+
+.text_number {
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 80px;
+    line-height: 98px;
+}
+
+.navbar .navbar_menu li a:hover {
+    color: #333;
+}
+
+.contact_texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding-bottom: 75px;
+}
+
+.contact_text {
+    font-size: 50px;
+    line-height: 72px;
+    color: #14274A;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+.contact_text1 {
+    color: #14274A;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.contact_text2 p {
+    margin-left: 100px;
+    color: #14274A;
+    font-size: 25px;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 49px;
+    color: #14274A;
+}
+
+.map img {
+margin-left: 15px;
+}
+
+.contact_texts .contact_text3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.phone_number {
+    font-size: 30px;
+    line-height: 49px;
+    color: #14274A;
+    margin-bottom: 5px;
+}
+
+.email_adres {
+    font-size: 30px;
+    line-height: 49px;
+    color: #14274A;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 400px;
+    margin-right: 75px;
+}
+
+.information input {
+    border: 1px solid rgb(163, 151, 151);
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+}
+
+.information input:nth-child(3) {
+    width: 180px;
+    height: 150px;
+}
+
+.btn_contact {
+    border: none;
+    border-radius: 3px;
+    background: #E0B973;
+    width: 75px;
+    height: 25px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+
+
+
+
+
